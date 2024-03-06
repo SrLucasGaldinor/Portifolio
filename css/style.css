@@ -104,15 +104,15 @@ section.topo-do-site .flex {
     font-size: 55px;
 }
 
-.topo-do-site .txt-topo-site p span {
-    color: #A239CA;
-    font-weight: 700;
-}
-
 .topo-do-site .txt-topo-site p {
     color: white;
     margin: 40px 0;
     letter-spacing: 0.25px;
+}
+
+.topo-do-site .txt-topo-site p span {
+    color: #A239CA;
+    font-weight: 700;
 }
 
 .topo-do-site .img-topo-site {
@@ -128,4 +128,51 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
+}
+
+/* ESTILO DAS HABILIDADES */
+
+.habilidades .interface .flex {
+    justify-content: center;
+}
+
+section.habilidades {
+    padding: 40px 4%;
+}
+
+section.habilidades .flex {
+    gap: 60px;
+}
+
+h2.titulo {
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #A239CA;
+}
+
+.habilidades .habilidades-box {
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.400);
+}
+
+.habilidades .habilidades-box i {
+    font-size: 70px;
+    color: #A239CA;
+}
+
+.habilidades .habilidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
 }
