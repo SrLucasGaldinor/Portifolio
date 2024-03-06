@@ -33,6 +33,11 @@ body {
     transition: .2s;
 }
 
+button:hover {
+    box-shadow: 0px 0px 8px #c092d36e;
+    transform: scale(1.20);
+}
+
 /* ESTILO DO CABEÇALHO */
 
 header {
@@ -65,11 +70,6 @@ header nav ul {
 header nav li {
     display: inline-block;
     padding: 0 40px;
-}
-
-.btn-contato button:hover {
-    box-shadow: 0px 0px 8px #c092d36e;
-    transform: scale(1.20);
 }
 
 .logo-img {
@@ -108,6 +108,7 @@ section.topo-do-site .flex {
     color: white;
     margin: 40px 0;
     letter-spacing: 0.25px;
+    text-align: justify;
 }
 
 .topo-do-site .txt-topo-site p span {
@@ -175,4 +176,55 @@ h2.titulo span {
 .habilidades .habilidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
+}
+
+/* ESTILO DO SOBRE */
+
+.img-nuvem {
+    width: 350px;
+}
+
+section.sobre {
+    padding: 40px 4%;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: white;    
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #A239CA;
+    display: block;
+    line-height: 40px;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #A239CA;
+    font-size: 23px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.901);
+    transition: .2s;
+}
+
+.sobre .txt-sobre .btn-social a {
+    padding: 5px;    
 }
