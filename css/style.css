@@ -228,3 +228,8 @@ section.sobre .flex {
 .sobre .txt-sobre .btn-social a {
     padding: 5px;   
 }
+
+.sobre .txt-sobre p span {
+    color: #A239CA;
+    font-weight: 700;
+}
