@@ -281,7 +281,7 @@ section.projetos .flex {
     font-weight: 600;
     color: white;
     opacity: 0;
-    transition: .2s;
+    transition: .3s;
 }
 
 .overlay:hover {
