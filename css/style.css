@@ -351,3 +351,29 @@ footer .flex {
 footer .flex .btn-social a {
    padding: 2.5px;
 }
+
+footer .line-footer i {
+    font-size: 50px;
+    color: #A239CA;
+}
+
+footer .line-footer {
+    display: flex;
+    justify-content: end;
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 3px solid #A239CA;
+}
+
+footer .line-footer a:hover {
+    transform: scale(1.15);
+    transition: .2s;
+}
+
+footer .line-footer .logo-footer img:hover {
+    transform: scale(1.15);
+    transition: .2s;
+    cursor: pointer;
+}
