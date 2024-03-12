@@ -7,18 +7,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body::-webkit-scrollbar {
-    width: 6px;               
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #d19fe4;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #A239CA;
-  }
-
 body {
     background-color: black;
     height: 100vh;
@@ -50,6 +38,20 @@ form .btn-enviar input[type=submit]:hover {
     box-shadow: 0px 0px 8px #c092d36e;
     transform: scale(1.20);
 }
+
+/* ESTILIZAÇÃO DA BARRA DE ROLAGEM */
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #d19fe4;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #A239CA;
+}
+
 
 /* ESTILO DO CABEÇALHO */
 
@@ -187,7 +189,7 @@ h2.titulo span {
 }
 
 .habilidades .habilidades-box h3 {
-    font-size: 28px;
+    font-size: 24px;
     margin: 15px 0;
 }
 
@@ -450,7 +452,7 @@ footer .line-footer .logo-footer img:hover {
         height: 480px;
     }
 
-    section.projetos .flex{
+    section.projetos .flex {
         gap: 30px;
     }
 
@@ -475,7 +477,7 @@ footer .line-footer .logo-footer img:hover {
 }
 
 /* RESPONSIVIDADE MOBILE */
-@media screen and (max-width:500px) {
+@media screen and (max-width:1070px) {
 
     /* GERAIS */
     .flex {
@@ -492,6 +494,15 @@ footer .line-footer .logo-footer img:hover {
         display: none;
     }
 
+    header {
+        padding: 30px 15px 0px;
+    }
+
+    header>.interface {
+        display: flex;
+        justify-content: center;
+    }
+
     /* RESPONSIVIDADE DO TOPO */
     section.topo-do-site .flex {
         gap: 40px;
@@ -499,17 +510,18 @@ footer .line-footer .logo-footer img:hover {
 
     section.topo-do-site {
         padding: 20px 8%;
-
     }
 
     .topo-do-site h1 {
         font-size: 30px;
-        line-height: 25px;
+        line-height: 30px;
         text-align: center;
+        word-spacing: 5px;
     }
 
     .topo-do-site .img-topo-site img {
         width: 100%;
+        max-width: 400px;
     }
 
     /* RESPONSIVIDADE DE HABILIDADES */
@@ -519,6 +531,15 @@ footer .line-footer .logo-footer img:hover {
 
     .habilidades .habilidades-box h3 {
         font-size: 22px;
+    }
+
+    section.habilidades .flex i {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.habilidades .flex h3 {
+        text-align: center;
     }
 
     section.habilidades .flex {
@@ -557,7 +578,7 @@ footer .line-footer .logo-footer img:hover {
         height: 480px;
     }
 
-    section.projetos .flex{
+    section.projetos .flex {
         gap: 30px;
     }
 
