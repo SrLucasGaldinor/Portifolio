@@ -213,7 +213,7 @@ section.sobre .flex {
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+.btn-social button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -226,7 +226,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre .btn-social a {
-    padding: 5px;   
+    padding: 2.5px;   
 }
 
 .sobre .txt-sobre p span {
@@ -331,4 +331,23 @@ form .btn-enviar input[type=submit] {
     cursor: pointer;
     font-weight: 600;
     transition: .2s;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer .line-footer .logo-footer img {
+    width: 242px;
+}
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.100);
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .flex .btn-social a {
+   padding: 2.5px;
 }
