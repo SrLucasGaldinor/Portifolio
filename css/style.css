@@ -33,7 +33,7 @@ body {
     transition: .2s;
 }
 
-button:hover {
+button:hover, form .btn-enviar input[type=submit]:hover {
     box-shadow: 0px 0px 8px #c092d36e;
     transform: scale(1.20);
 }
@@ -288,4 +288,47 @@ section.projetos .flex {
     opacity: 1;
 }
 
+/* ESTILO DO FORMULÁRIO */
 
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: rgba(60, 60, 60, 0.15);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit] {
+    width: 120px;
+    background-color: #A239CA;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+}
