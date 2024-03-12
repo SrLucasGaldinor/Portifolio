@@ -380,7 +380,90 @@ footer .line-footer .logo-footer img:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width:1269px) {
+/* RESPONSIVIDADE TELAS MENORES */
+@media screen and (max-width:1275px) {
+
+    /* RESPONSIVIDADE DO TOPO */
+    section.topo-do-site {
+        padding: 80px 8%;
+
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /* RESPONSIVIDADE DE HABILIDADES */
+    section.habilidades {
+        padding: 20px 9%;
+    }
+
+    .habilidades .habilidades-box h3 {
+        font-size: 18px;
+    }
+
+    .habilidades .habilidades-box p {
+        font-size: 15px;
+    }
+
+    section.habilidades .flex {
+        gap: 22px;
+    }
+
+    /* RESPONSIVIDADE DO SOBRE */
+    section.sobre {
+        padding: 80px 9%;
+    }
+
+    section.sobre .txt-sobre h2 {
+        font-size: 32px;
+    }
+
+    section.sobre .txt-sobre h2 span {
+        font-size: 42px;
+    }
+
+    /* RESPONSIVIDADE PROJETOS */
+    section.projetos {
+        padding: 80px 8%;
+    }
+
+    .img-proj {
+        width: 100%;
+        height: 480px;
+    }
+
+    section.projetos .flex{
+        gap: 30px;
+    }
+
+    /* RESPONSIVIDADE DO RODAPÉ */
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        justify-content: center;
+    }
+
+    footer .btn-social {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    footer .borda {
+        margin-top: 15px;
+    }
+}
+
+/* RESPONSIVIDADE MOBILE */
+@media screen and (max-width:500px) {
 
     /* GERAIS */
     .flex {
