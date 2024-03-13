@@ -7,9 +7,9 @@
     $assunto = "Contato - Portifólio";
     $body = "Nome: ".$nome."\nE-mail: ".$email."\nTelefone: ".$telefone."\nMensagem: ".$texto;
     $cabecalho = "From: lucasgaldinorosa2904@gmail.com"."\n"."Reply-to".$email."\n"."X=Mailer:PHP/".phpversion();
-    if(mail($para,$assunto,$body,$cabecalho)) {
-        echo("E-mail enviado com sucesso !");
-    } else {
-        echo("Erro ao enviar o E-mail ");
-    }
+    // if(mail($para,$assunto,$body,$cabecalho)) {
+    //     echo("E-mail enviado com sucesso !");
+    // } else {
+    //     echo("Erro ao enviar o E-mail ");
+    // }
     ?>
