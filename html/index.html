@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="cabecalho">
         <div class="interface">
             <div class="logo">
                 <a href="#">
@@ -31,15 +31,15 @@
             </div> <!-- logo -->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                 </ul>
             </nav> <!-- menu-desktop -->
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#formulario">
                     <button>Contato</button>
                 </a>
             </div> <!-- btn-contato -->
@@ -47,18 +47,20 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>DESENVOLVEDOR FULLSTACK JUNIOR<span>.</span></h1>
-                        <p>Após minha experiência no <span>Entra-21</span>, desenvolvi uma paixão pela programação.
-                            Desde jovem tenho
-                            forte interesse por tecnologia. Busco constantemente inovação e aprendizado, procuro
-                            adquirir novas habilidades diariamente.</p>
+                        <p>Estou constantemente em busca de aprimorar minhas habilidades de programação e adquirir
+                            conhecimentos no mundo da tecnologia. Meu objetivo é desenvolver
+                            soluções de software inovadoras que possam ter um <span>impacto positivo na vida das
+                                pessoas</span>,
+                            otimizando processos, simplificando tarefas e tornando a tecnologia mais acessível e
+                            inclusiva.</p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/lucas-galdino-rosa/" target="_blank">
                                 <button>Entre em Contato</button>
                             </a>
                         </div> <!-- btn-contato -->
@@ -71,33 +73,33 @@
             </div> <!-- interface -->
         </section> <!-- topo-do-site -->
 
-        <section class="habilidades">
+        <section class="habilidades" id="habilidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>HABILIDADES</span></h2>
                 <div class="flex">
                     <div class="habilidades-box">
                         <i class="bi bi-diagram-3"></i>
                         <h3>TRABALHO EM EQUIPE</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum dicta molestias
-                            dolores?</p>
+                        <p>Sou colaborativo e eficaz em equipes, contribuindo para metas compartilhadas e um ambiente
+                            produtivo.</p>
                     </div> <!-- habilidades-box -->
                     <div class="habilidades-box">
                         <i class="bi bi-bullseye"></i>
-                        <h3>COMPROMETIMENTO</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dolorem quas neque?
-                            Placeat voluptas ?</p>
+                        <h3>ADAPTABILIDADE</h3>
+                        <p>Capaz de me adaptar rapidamente a novos ambientes e desafios, buscando soluções criativas e
+                            eficazes.</p>
                     </div> <!-- habilidades-box -->
                     <div class="habilidades-box">
                         <i class="bi bi-chat-dots"></i>
                         <h3>COMUNICAÇÃO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae culpa excepturi, molestias
-                            accusamus sa perferendis ?</p>
+                        <p>Comunicativo, capaz de transmitir ideias de forma clara e eficaz, promovendo uma colaboração
+                            harmoniosa na equipe.</p>
                     </div> <!-- habilidades-box -->
                 </div> <!-- flex -->
             </div> <!-- interface -->
         </section> <!-- habilidades -->
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -105,14 +107,13 @@
                     </div> <!-- img-sobre -->
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER ! <span>SOU LUCAS GALDINO.</span></h2>
-                        <p>Tenho 24 anos e desde jovem sou apaixonado por tecnologia. Minha
-                            jornada na programação começou no <span>Programa Entra-21</span>, onde descobri minha
-                            verdadeira vocação.
+                        <p>Tenho 24 anos, estudante motivado de <span>Cibersegurança</span> na Ampli, apaixonado pela
+                            programação
+                            e determinado a me tornar um excelente programador.
                         </p>
-                        <p>Atualmente, estou estudando Cibersegurança na Ampli, com o objetivo de me tornar um
-                            <span>Engenheiro de Cibersegurança</span> e contribuir para o desenvolvimento de sistemas
-                            cada vez mais
-                            seguros.
+                        <p>Busco constantemente aprimorar minhas habilidades e conhecimentos para criar soluções de
+                            software impactantes que <span>melhorem a vida das pessoas</span> e tornem a tecnologia mais
+                            acessível.
                         </p>
                         <div class="btn-social">
                             <a href="https://www.linkedin.com/in/lucas-galdino-rosa/" target="_blank"><button><i
@@ -127,7 +128,7 @@
             </div> <!-- interface -->
         </section> <!-- sobre -->
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
                 <div class="flex">
@@ -152,7 +153,7 @@
             </div> <!-- interface -->
         </section> <!-- projetos -->
 
-        <section class="formulario">
+        <section class="formulario" id="formulario">
             <div class="interface">
                 <h2 class="titulo">FALE <span>COMIGO.</span></h2>
                 <form action="#">
@@ -170,7 +171,9 @@
                 <div class="flex">
                     <div class="line-footer">
                         <div class="logo-footer">
-                            <img src="/img/Galdino.Logo.svg" alt="Logo-Footer">
+                            <a href="#cabecalho">
+                                <img src="/img/Galdino.Logo.svg" alt="Logo-Footer">
+                            </a>
                         </div>
                     </div> <!-- line-footer -->
                     <div class="btn-social">
