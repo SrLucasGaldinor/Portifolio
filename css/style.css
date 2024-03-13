@@ -1,5 +1,4 @@
-/* ESTILO GERAL */
-
+/* ESTILO GERAL - INÍCIO */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +38,9 @@ form .btn-enviar input[type=submit]:hover {
     transform: scale(1.20);
 }
 
-/* ESTILIZAÇÃO DA BARRA DE ROLAGEM */
+/* ESTILO GERAL - INÍCIO - FIM */
+
+/* ESTILIZAÇÃO DA BARRA DE ROLAGEM - INÍCIO */
 body::-webkit-scrollbar {
     width: 6px;
 }
@@ -52,9 +53,9 @@ body::-webkit-scrollbar-thumb {
     background-color: #A239CA;
 }
 
+/* ESTILIZAÇÃO DA BARRA DE ROLAGEM - FIM */
 
-/* ESTILO DO CABEÇALHO */
-
+/* ESTILO DO CABEÇALHO - INÍCIO */
 header {
     padding: 30px 4%;
 }
@@ -91,8 +92,9 @@ header nav li {
     width: 242px;
 }
 
-/* ESTILO DO TOPO DO SITE */
+/* ESTILO DO CABEÇALHO - FIM */
 
+/* ESTILO DO TOPO DO SITE - INÍCIO */
 .img-topo-site .img-avatar {
     width: 425px;
 }
@@ -146,8 +148,9 @@ section.topo-do-site .flex {
     }
 }
 
-/* ESTILO DAS HABILIDADES */
+/* ESTILO DO TOPO DO SITE - FIM */
 
+/* ESTILO DAS HABILIDADES - INÍCIO */
 .habilidades .interface .flex {
     justify-content: center;
 }
@@ -193,8 +196,9 @@ h2.titulo span {
     margin: 15px 0;
 }
 
-/* ESTILO DO SOBRE */
+/* ESTILO DAS HABILIDADES - FIM */
 
+/* ESTILO DO SOBRE - INÍCIO */
 .img-nuvem {
     width: 350px;
 }
@@ -249,8 +253,9 @@ section.sobre .flex {
     font-weight: 700;
 }
 
-/* ESTILO DOS PROJETOS */
+/* ESTILO DO SOBRE - FIM */
 
+/* ESTILO DOS PROJETOS - INÍCIO */
 section.projetos h2 {
     font-size: 40px;
 }
@@ -303,8 +308,9 @@ section.projetos .flex {
     opacity: 1;
 }
 
-/* ESTILO DO FORMULÁRIO */
+/* ESTILO DOS PROJETOS - FIM */
 
+/* ESTILO DO FORMULÁRIO - INÍCIO */
 section.formulario {
     padding: 80px 4%;
 }
@@ -349,8 +355,9 @@ form .btn-enviar input[type=submit] {
     transition: .2s;
 }
 
-/* ESTILO DO RODAPÉ */
+/* ESTILO DO FORMULÁRIO - FIM */
 
+/* ESTILO DO RODAPÉ - INÍCIO */
 footer .line-footer .logo-footer img {
     width: 242px;
 }
@@ -394,7 +401,9 @@ footer .line-footer .logo-footer img:hover {
     cursor: pointer;
 }
 
-/* RESPONSIVIDADE TELAS MENORES */
+/* ESTILO DO RODAPÉ - FIM */
+
+/* RESPONSIVIDADE TELAS MENORES - INÍCIO */
 @media screen and (max-width:1275px) {
 
     /* RESPONSIVIDADE DO TOPO */
@@ -412,7 +421,7 @@ footer .line-footer .logo-footer img:hover {
         width: 100%;
     }
 
-    /* RESPONSIVIDADE DE HABILIDADES */
+    /* RESPONSIVIDADE - HABILIDADES */
     section.habilidades {
         padding: 20px 9%;
     }
@@ -429,7 +438,7 @@ footer .line-footer .logo-footer img:hover {
         gap: 22px;
     }
 
-    /* RESPONSIVIDADE DO SOBRE */
+    /* RESPONSIVIDADE - SOBRE */
     section.sobre {
         padding: 80px 9%;
     }
@@ -442,7 +451,7 @@ footer .line-footer .logo-footer img:hover {
         font-size: 42px;
     }
 
-    /* RESPONSIVIDADE PROJETOS */
+    /* RESPONSIVIDADE - PROJETOS */
     section.projetos {
         padding: 80px 8%;
     }
@@ -456,7 +465,7 @@ footer .line-footer .logo-footer img:hover {
         gap: 30px;
     }
 
-    /* RESPONSIVIDADE DO RODAPÉ */
+    /* RESPONSIVIDADE - RODAPÉ */
     footer .flex {
         flex-direction: column;
     }
@@ -476,10 +485,12 @@ footer .line-footer .logo-footer img:hover {
     }
 }
 
-/* RESPONSIVIDADE MOBILE */
+/* RESPONSIVIDADE TELAS MENORES - FIM */
+
+/* RESPONSIVIDADE MOBILE - INÍCIO */
 @media screen and (max-width:1070px) {
 
-    /* GERAIS */
+    /* RESPONSIVIDADE - GERAL */
     .flex {
         flex-direction: column;
     }
@@ -488,7 +499,7 @@ footer .line-footer .logo-footer img:hover {
         flex-direction: column-reverse;
     }
 
-    /* RESPONSIVIDADE DO HEADER */
+    /* RESPONSIVIDADE - HEADER */
     .menu-desktop,
     .btn-contato {
         display: none;
@@ -503,7 +514,7 @@ footer .line-footer .logo-footer img:hover {
         justify-content: center;
     }
 
-    /* RESPONSIVIDADE DO TOPO */
+    /* RESPONSIVIDADE - TOPO */
     section.topo-do-site .flex {
         gap: 40px;
     }
@@ -524,7 +535,7 @@ footer .line-footer .logo-footer img:hover {
         max-width: 400px;
     }
 
-    /* RESPONSIVIDADE DE HABILIDADES */
+    /* RESPONSIVIDADE - HABILIDADES */
     section.habilidades {
         padding: 20px 9%;
     }
@@ -546,7 +557,7 @@ footer .line-footer .logo-footer img:hover {
         gap: 10px;
     }
 
-    /* RESPONSIVIDADE DO SOBRE */
+    /* RESPONSIVIDADE - SOBRE */
     section.sobre {
         padding: 20px 9%;
     }
@@ -568,7 +579,7 @@ footer .line-footer .logo-footer img:hover {
         gap: 5px;
     }
 
-    /* RESPONSIVIDADE PROJETOS */
+    /* RESPONSIVIDADE - PROJETOS */
     section.projetos {
         padding: 80px 8%;
     }
@@ -582,7 +593,7 @@ footer .line-footer .logo-footer img:hover {
         gap: 30px;
     }
 
-    /* RESPONSIVIDADE DO RODAPÉ */
+    /* RESPONSIVIDADE - RODAPÉ */
     footer .flex {
         flex-direction: column;
     }
@@ -596,3 +607,5 @@ footer .line-footer .logo-footer img:hover {
         margin-top: 15px;
     }
 }
+
+/* RESPONSIVIDADE MOBILE - FIM */
