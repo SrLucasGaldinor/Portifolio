@@ -1,1 +1,611 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif}body{background-color:#000;height:100vh}.interface{max-width:1280px;margin:0 auto}.flex{display:flex}.btn-contato button{padding:10px 35px;color:#fff;border:0;border-radius:15px;font-size:18px;font-weight:600;background-color:#A239CA;cursor:pointer;transition:.2s}button:hover,form .btn-enviar input[type=submit]:hover{box-shadow:0 0 8px #c092d36e;transform:scale(1.20)}body::-webkit-scrollbar{width:6px}body::-webkit-scrollbar-track{background:#d19fe4}body::-webkit-scrollbar-thumb{background-color:#A239CA}header{padding:30px 4%}header>.interface{display:flex;align-items:center;justify-content:space-between}header a{color:rgba(105,105,105,0.8);text-decoration:none;display:inline-block;transition:.2s}header a:hover{color:#fff;transform:scale(1.10)}header nav ul{list-style-type:none}header nav li{display:inline-block;padding:0 40px}.logo-img{width:242px}.img-topo-site .img-avatar{width:425px}section.topo-do-site{padding:75px 4%}section.topo-do-site .flex{align-items:center;justify-content:center;gap:70px}.topo-do-site h1{color:#fff;font-size:50px;line-height:45px;word-spacing:15px}.topo-do-site .txt-topo-site h1 span{color:#A239CA;font-size:55px}.topo-do-site .txt-topo-site p{color:#fff;margin:40px 0;letter-spacing:.25px;text-align:justify}.topo-do-site .txt-topo-site p span{color:#ab67c6;font-weight:700}.topo-do-site .img-topo-site{position:relative;animation:flutuar 1.5s ease-in-out infinite alternate}@keyframes flutuar{0%{top:0}100%{top:30px}}.habilidades .interface .flex{justify-content:center}section.habilidades{padding:45px 4%}section.habilidades .flex{gap:60px}h2.titulo{color:#fff;font-size:38px;text-align:center}h2.titulo span{color:#A239CA}.habilidades .habilidades-box{color:#fff;padding:40px;border-radius:20px;margin-top:35px;transition:.2s}.habilidades .habilidades-box:hover{transform:scale(1.05);box-shadow:0 0 20px rgba(255,255,255,0.400)}.habilidades .habilidades-box i{font-size:70px;color:#A239CA}.habilidades .habilidades-box h3{font-size:24px;margin:15px 0}.img-nuvem{width:350px}section.sobre{padding:100px 4%}section.sobre .flex{align-items:center;gap:60px}.sobre .txt-sobre{color:#fff}.sobre .txt-sobre h2{font-size:52px;margin-bottom:45px}.sobre .txt-sobre h2 span{color:#A239CA;display:block;line-height:40px}.sobre .txt-sobre p{margin:20px 0;text-align:justify}.btn-social button{width:50px;height:50px;border-radius:50%;border:none;background-color:#A239CA;font-size:23px;cursor:pointer;color:rgba(255,255,255,0.901);transition:.2s}.sobre .txt-sobre .btn-social a{padding:2.5px}.sobre .txt-sobre p span{color:#ab67c6;font-weight:700}section.projetos h2{font-size:40px}section.projetos{padding:80px 4%;box-shadow:0 0 40px 10px rgba(255,255,255,0.100)}section.projetos .flex{justify-content:space-around;margin-top:60px}.img-proj{width:380px;height:480px;background-size:cover;background-position:100% 0;transition:7s;cursor:pointer;border-radius:10px;position:relative;border:#959595 solid 1.8px}.img-proj:hover{background-position:100% 100%}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#000000b8;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:600;color:#fff;opacity:0;transition:.3s}.overlay:hover{opacity:1}section.formulario{padding:80px 4%}form{max-width:500px;margin:0 auto;margin-top:15px;display:flex;justify-content:center;flex-direction:column;gap:12px}form input,form textarea{width:100%;background-color:rgba(60,60,60,0.15);border:0;outline:0;padding:20px 15px;border-radius:15px;color:#fff;font-size:18px}form textarea{resize:none}form .btn-enviar{margin-top:20px;text-align:center}form .btn-enviar input[type=submit]{width:120px;background-color:#A239CA;color:#fff;cursor:pointer;font-weight:600;transition:.2s}footer .line-footer .logo-footer img{width:242px}footer{padding:40px 4%;box-shadow:0 0 40px 10px rgba(255,255,255,0.100)}footer .flex{justify-content:space-between}footer .flex .btn-social a{padding:2.5px}footer .line-footer i{font-size:50px;color:#A239CA}footer .line-footer{display:flex;justify-content:end;padding:20px 0}.borda{border-top:3px solid #A239CA}footer .line-footer a:hover{transform:scale(1.15);transition:.2s}footer .line-footer .logo-footer img:hover{transform:scale(1.15);transition:.2s;cursor:pointer}@media screen and (max-width:1275px){section.topo-do-site{padding:80px 8%}.topo-do-site h1{font-size:30px;line-height:25px}.topo-do-site .img-topo-site img{width:100%}section.habilidades{padding:20px 9%}.habilidades .habilidades-box h3{font-size:18px}.habilidades .habilidades-box p{font-size:15px}section.habilidades .flex{gap:22px}section.sobre{padding:80px 9%}section.sobre .txt-sobre h2{font-size:32px}section.sobre .txt-sobre h2 span{font-size:42px}section.projetos{padding:80px 8%}.img-proj{width:100%;height:480px}section.projetos .flex{gap:30px}footer .flex{flex-direction:column}footer .line-footer{justify-content:center}footer .btn-social{display:flex;justify-content:center;gap:5px}footer .borda{margin-top:15px}}@media screen and (max-width:1070px){.flex{flex-direction:column}.topo-do-site .flex{flex-direction:column-reverse}.menu-desktop,.btn-contato{display:none}header{padding:30px 15px 0}header>.interface{display:flex;justify-content:center}section.topo-do-site .flex{gap:40px}section.topo-do-site{padding:20px 8%}.topo-do-site h1{font-size:30px;line-height:30px;text-align:center;word-spacing:5px}.topo-do-site .img-topo-site img{width:100%;max-width:400px}section.habilidades{padding:20px 9%}.habilidades .habilidades-box h3{font-size:22px}section.habilidades .flex i{display:flex;justify-content:center}section.habilidades .flex h3{text-align:center}section.habilidades .flex{gap:10px}section.sobre{padding:20px 9%}section.sobre .img-sobre{display:none}section.sobre .txt-sobre h2{font-size:24px}section.sobre .txt-sobre h2 span{font-size:30px}.btn-social{text-align:center;gap:5px}section.projetos{padding:80px 8%}.img-proj{width:100%;height:480px}section.projetos .flex{gap:30px}footer .flex{flex-direction:column}footer .line-footer{display:flex;justify-content:center}footer .borda{margin-top:15px}}
+/* ESTILO GERAL - INÍCIO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 35px;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #A239CA;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover,
+form .btn-enviar input[type=submit]:hover {
+    box-shadow: 0px 0px 8px #c092d36e;
+    transform: scale(1.20);
+}
+
+/* ESTILO GERAL - INÍCIO - FIM */
+
+/* ESTILIZAÇÃO DA BARRA DE ROLAGEM - INÍCIO */
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #d19fe4;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #A239CA;
+}
+
+/* ESTILIZAÇÃO DA BARRA DE ROLAGEM - FIM */
+
+/* ESTILO DO CABEÇALHO - INÍCIO */
+header {
+    padding: 30px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgba(105, 105, 105, 0.8);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.10);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.logo-img {
+    width: 242px;
+}
+
+/* ESTILO DO CABEÇALHO - FIM */
+
+/* ESTILO DO TOPO DO SITE - INÍCIO */
+.img-topo-site .img-avatar {
+    width: 425px;
+}
+
+section.topo-do-site {
+    padding: 75px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.topo-do-site h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 45px;
+    word-spacing: 15px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #A239CA;
+    font-size: 55px;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: white;
+    margin: 40px 0;
+    letter-spacing: 0.25px;
+    text-align: justify;
+}
+
+.topo-do-site .txt-topo-site p span {
+    color: #ab67c6;
+    font-weight: 700;
+}
+
+.topo-do-site .img-topo-site {
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/* ESTILO DO TOPO DO SITE - FIM */
+
+/* ESTILO DAS HABILIDADES - INÍCIO */
+.habilidades .interface .flex {
+    justify-content: center;
+}
+
+section.habilidades {
+    padding: 45px 4%;
+}
+
+section.habilidades .flex {
+    gap: 60px;
+}
+
+h2.titulo {
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #A239CA;
+}
+
+.habilidades .habilidades-box {
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.400);
+}
+
+.habilidades .habilidades-box i {
+    font-size: 70px;
+    color: #A239CA;
+}
+
+.habilidades .habilidades-box h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+/* ESTILO DAS HABILIDADES - FIM */
+
+/* ESTILO DO SOBRE - INÍCIO */
+.img-nuvem {
+    width: 350px;
+}
+
+section.sobre {
+    padding: 100px 4%;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: white;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 52px;
+    margin-bottom: 45px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #A239CA;
+    display: block;
+    line-height: 40px;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.btn-social button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #A239CA;
+    font-size: 23px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.901);
+    transition: .2s;
+}
+
+.sobre .txt-sobre .btn-social a {
+    padding: 2.5px;
+}
+
+.sobre .txt-sobre p span {
+    color: #ab67c6;
+    font-weight: 700;
+}
+
+/* ESTILO DO SOBRE - FIM */
+
+/* ESTILO DOS PROJETOS - INÍCIO */
+section.projetos h2 {
+    font-size: 40px;
+}
+
+section.projetos {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.100);
+}
+
+section.projetos .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-proj {
+    width: 380px;
+    height: 480px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 7s;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    border: #959595 solid 1.8px;
+}
+
+.img-proj:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    opacity: 0;
+    transition: .3s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/* ESTILO DOS PROJETOS - FIM */
+
+/* ESTILO DO FORMULÁRIO - INÍCIO */
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: rgba(60, 60, 60, 0.15);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit] {
+    width: 120px;
+    background-color: #A239CA;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+}
+
+/* ESTILO DO FORMULÁRIO - FIM */
+
+/* ESTILO DO RODAPÉ - INÍCIO */
+footer .line-footer .logo-footer img {
+    width: 242px;
+}
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.100);
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .flex .btn-social a {
+    padding: 2.5px;
+}
+
+footer .line-footer i {
+    font-size: 50px;
+    color: #A239CA;
+}
+
+footer .line-footer {
+    display: flex;
+    justify-content: end;
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 3px solid #A239CA;
+}
+
+footer .line-footer a:hover {
+    transform: scale(1.15);
+    transition: .2s;
+}
+
+footer .line-footer .logo-footer img:hover {
+    transform: scale(1.15);
+    transition: .2s;
+    cursor: pointer;
+}
+
+/* ESTILO DO RODAPÉ - FIM */
+
+/* RESPONSIVIDADE TELAS MENORES - INÍCIO */
+@media screen and (max-width:1275px) {
+
+    /* RESPONSIVIDADE DO TOPO */
+    section.topo-do-site {
+        padding: 80px 8%;
+
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /* RESPONSIVIDADE - HABILIDADES */
+    section.habilidades {
+        padding: 20px 9%;
+    }
+
+    .habilidades .habilidades-box h3 {
+        font-size: 18px;
+    }
+
+    .habilidades .habilidades-box p {
+        font-size: 15px;
+    }
+
+    section.habilidades .flex {
+        gap: 22px;
+    }
+
+    /* RESPONSIVIDADE - SOBRE */
+    section.sobre {
+        padding: 80px 9%;
+    }
+
+    section.sobre .txt-sobre h2 {
+        font-size: 32px;
+    }
+
+    section.sobre .txt-sobre h2 span {
+        font-size: 42px;
+    }
+
+    /* RESPONSIVIDADE - PROJETOS */
+    section.projetos {
+        padding: 80px 8%;
+    }
+
+    .img-proj {
+        width: 100%;
+        height: 480px;
+    }
+
+    section.projetos .flex {
+        gap: 30px;
+    }
+
+    /* RESPONSIVIDADE - RODAPÉ */
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        justify-content: center;
+    }
+
+    footer .btn-social {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    footer .borda {
+        margin-top: 15px;
+    }
+}
+
+/* RESPONSIVIDADE TELAS MENORES - FIM */
+
+/* RESPONSIVIDADE MOBILE - INÍCIO */
+@media screen and (max-width:1070px) {
+
+    /* RESPONSIVIDADE - GERAL */
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    /* RESPONSIVIDADE - HEADER */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    header {
+        padding: 30px 15px 0px;
+    }
+
+    header>.interface {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* RESPONSIVIDADE - TOPO */
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        word-spacing: 5px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* RESPONSIVIDADE - HABILIDADES */
+    section.habilidades {
+        padding: 20px 9%;
+    }
+
+    .habilidades .habilidades-box h3 {
+        font-size: 22px;
+    }
+
+    section.habilidades .flex i {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.habilidades .flex h3 {
+        text-align: center;
+    }
+
+    section.habilidades .flex {
+        gap: 10px;
+    }
+
+    /* RESPONSIVIDADE - SOBRE */
+    section.sobre {
+        padding: 20px 9%;
+    }
+
+    section.sobre .img-sobre {
+        display: none;
+    }
+
+    section.sobre .txt-sobre h2 {
+        font-size: 24px;
+    }
+
+    section.sobre .txt-sobre h2 span {
+        font-size: 30px;
+    }
+
+    .btn-social {
+        text-align: center;
+        gap: 5px;
+    }
+
+    /* RESPONSIVIDADE - PROJETOS */
+    section.projetos {
+        padding: 80px 8%;
+    }
+
+    .img-proj {
+        width: 100%;
+        height: 480px;
+    }
+
+    section.projetos .flex {
+        gap: 30px;
+    }
+
+    /* RESPONSIVIDADE - RODAPÉ */
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .borda {
+        margin-top: 15px;
+    }
+}
+
+/* RESPONSIVIDADE MOBILE - FIM */
